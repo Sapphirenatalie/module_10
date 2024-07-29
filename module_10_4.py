@@ -22,7 +22,8 @@ from threading import Thread
 import sys
 from queue import Queue
 from time import sleep, strftime
-from colorama import Fore
+from colorama import Fore, init
+init(autoreset=False)
 
 
 class Table:
